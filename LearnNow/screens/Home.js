@@ -48,17 +48,6 @@ function Home() {
       </ScrollView>
     </View>
 
-    // <View style={styles.rootContainer}>
-    //   <Text style={styles.headers}>Learning Progress</Text>
-    //   <FlatList
-    //   data={chapters}
-    //   renderItem={({item})=> (
-    //     <ChapterOverview id={item.id} progress={item.progress} title={item.title}/>
-    //   )}
-    //   keyExtractor={(item)=>item.id}
-    // />
-
-    // </View>
   )
 }
 

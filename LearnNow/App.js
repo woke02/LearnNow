@@ -36,7 +36,7 @@ function AuthStack() {
 }
 
 function AuthenticatedStack() {
-  const {logout} = useContext(AuthContext);
+  const { logout } = useContext(AuthContext);
   return (
     <Stack.Navigator
       screenOptions={{
